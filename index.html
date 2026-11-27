@@ -18,7 +18,7 @@
     font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
-  nav { display: flex; gap: 12px; margin-bottom: 24px; }
+  nav { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
   nav a {
     display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px;
     border: 1px solid var(--line); border-radius: 10px; background: var(--surface);
@@ -38,6 +38,7 @@
   <nav aria-label="Dil / Language">
     <a href="#tr" hreflang="tr">Türkçe</a>
     <a href="#en" hreflang="en">English</a>
+    <a href="support/">Destek · Support</a>
   </nav>
 
   <article id="tr" lang="tr">
@@ -62,6 +63,7 @@
 
     <h2>3. Hesap</h2>
     <p>Hesap açmak isteğe bağlıdır. Hesap açarsanız e-posta adresiniz, adınız ve şifrenizin geri çevrilemez bir özeti (şifrenin kendisi değil) ile giriş kayıtları (giriş zamanı, IP adresi) hesap altyapımızı sağlayan Supabase, Inc. sunucularında saklanır. Bu bilgiler yalnızca giriş yapmanızı sağlamak, e-posta onayı ve şifre sıfırlama e-postaları göndermek için kullanılır. Antrenman geçmişiniz ve göz sağlığı cevaplarınız hesabınıza gönderilmez; cihazınızda kalır. Ayrıntılar: <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
+    <p><strong>Apple ile giriş:</strong> "Apple ile devam et" seçeneğini kullanırsanız Apple bize e-posta adresinizi (gizlemeyi seçerseniz Apple'ın size özel yönlendirme adresini), paylaşırsanız adınızı ve EyeFlow'a özel bir Apple kullanıcı kimliğini iletir. Şifreniz bizimle paylaşılmaz. Hesabınızı sildiğinizde EyeFlow'un Apple hesabınıza erişimini de Apple üzerinden iptal ederiz.</p>
 
     <h2 id="hesabi-sil">4. Verilerin ve hesabın silinmesi</h2>
     <p><strong>Uygulama içinden:</strong> Ayarlar &gt; Hesap &gt; Hesabı sil ile hesabınız sunucumuzdan, cihazdaki tüm verileriniz de cihazınızdan kalıcı olarak silinir. Uygulamayı kaldırmak da cihazdaki verileri siler.</p>
@@ -103,6 +105,7 @@
 
     <h2>3. Account</h2>
     <p>An account is optional. If you create one, your email address, your name, an irreversible hash of your password (never the password itself) and sign-in records (time, IP address) are stored on the servers of Supabase, Inc., which provides our account infrastructure. They are used only to sign you in and to send confirmation and password-reset emails. Your training history and eye-health answers are not sent to your account; they stay on your device. Details: <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
+    <p><strong>Sign in with Apple:</strong> if you choose "Continue with Apple", Apple shares your email address (or, if you choose to hide it, a private relay address), your name if you share it, and an Apple user ID unique to EyeFlow. Your password is never shared with us. When you delete your account, we also revoke EyeFlow's access to your Apple account through Apple.</p>
 
     <h2 id="delete-account">4. Deleting your data and account</h2>
     <p><strong>In the App:</strong> Settings &gt; Account &gt; Delete account permanently deletes your account from our server and all data from your device. Uninstalling the App also removes the data on your device.</p>
